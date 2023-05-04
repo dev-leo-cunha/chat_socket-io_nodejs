@@ -12,6 +12,7 @@ let textInput = document.querySelector('#chatTextInput')
 loginPage.style.display = 'flex'
 chatPage.style.display = 'none'
 
+
 function renderUserList() {
     let ul = document.querySelector('.userList')
     ul.innerHTML = '';
